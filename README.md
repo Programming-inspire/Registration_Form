@@ -1,8 +1,8 @@
-# Registration Form Assessment
+# Registration Form Using ReactJS
 
-## Welcome to the Registration Form Assessment:
+## Welcome to the Registration Form:
 
-This repository contains the source code for a Registration Form Assessment. Follow the instructions below to set up and run the project.
+This repository contains the source code for a Registration Form. Follow the instructions below to set up and run the project.
 
 ### Instructions:
 

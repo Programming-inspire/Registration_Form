@@ -1,0 +1,12 @@
+{
+  "Users": [
+    {
+      "id": "a0e5",
+      "name": "Karthiswaran g",
+      "country": "India",
+      "comment": "I am Karthiswaran",
+      "gender": "male",
+      "terms": true
+    }
+  ]
+}

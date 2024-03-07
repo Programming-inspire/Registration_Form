@@ -31,7 +31,6 @@ const RegistrationForm = ({ onFormSubmit }) => {
       if (!response.ok) {
         throw new Error('Failed to submit data');
       }
-      alert('Form submitted successfully! Refresh the Page');
       
       setFormData({
         name: '',
@@ -40,6 +39,8 @@ const RegistrationForm = ({ onFormSubmit }) => {
         gender: '',
         terms: false
       });
+      alert('Form submitted successfully');
+      window.location.reload(false);
     } catch (error) {
       console.error('Error submitting form:', error);
       alert('Failed to submit data');

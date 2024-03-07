@@ -27,7 +27,8 @@ const EditModal = ({ user, onClose }) => {
         throw new Error('Failed to update user');
       }
       onClose(); 
-      alert('Your details updated successfully, Refresh the page'); 
+      alert('Your details updated successfully'); 
+      window.location.reload(false);
     } catch (error) {
       console.error('Error updating user:', error);
       
